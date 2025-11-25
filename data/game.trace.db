@@ -1,0 +1,5 @@
+2025-11-24 22:05:52.760197-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STARTUP" not found (this database is empty); SQL statement:
+INSERT INTO startup (nome, caixa, receita_base, reputacao, moral, score_final)
+VALUES (?, ?, ?, ?, ?, ?)
+ [42104-224]
