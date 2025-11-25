@@ -5,6 +5,7 @@ import engine.GameEngine;
 import model.Startup;
 import model.vo.Dinheiro;
 import model.vo.Humor;
+import persistence.StartupRepository;
 
 import java.util.Scanner;
 
@@ -62,6 +63,10 @@ public class ConsoleApp {
                     System.out.println("\n=== FIM DO JOGO ===");
                     System.out.println(startup);
                     System.out.println();
+
+                    StartupRepository repo = new StartupRepository();
+                    repo.listarRanking();
+
                 }
 
                 case 2 -> {
